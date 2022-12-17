@@ -47,15 +47,19 @@ header{
 .me{
     background: linear-gradient(var(--color-primary),transparent);
     width: 22rem;
-    height: 30rem;
+    height: 25rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    border-radius: 12rem 12rem 12rem 12rem;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 
+}
+
+.me img{
+    transform: translateY(-10%);
 }
 
 /* ======== SCROLL DOWN =======*/
@@ -76,6 +80,7 @@ header{
     header{
         height: 100vh;
     }
+
  }
 
 
@@ -90,4 +95,14 @@ header{
     .header_socials, .scroll__down{
         display: none;
     }
-  }
+
+    .me{
+        border-radius: 55rem 55rem 60rem 60rem;
+        
+    }
+
+    .me img{
+        transform: translateY(-20%);
+    }
+    
+}
